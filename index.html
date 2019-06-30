@@ -3,125 +3,367 @@
 <head>
 	<meta charset="UTF-8">
 	<title>mini</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet"> 
+	<script src="https://kit.fontawesome.com/c8a846e5f5.js"></script>
 </head>
 <body>
 	<header>
-		<a href="#"><img src="img/logo.png" alt="logo"></a>
-		<div class="menu">
-		<ul>
-			<li><a href="">about</a></li>
-			<li><a href="">team</a></li>
-			<li><a href="">services</a></li>
-			<li><a href="">works</a></li>
-			<li><a href="">blog</a></li>
-			<li><a href="">contact</a></li>
-		</ul>
+		<div class="fullMenu padding20">
+			<a href="#"><img src="img/logo.png" alt="logo"></a>
+			<ul class="menu">
+				<li><a href="">about</a></li>
+				<li><a href="">team</a></li>
+				<li><a href="">services</a></li>
+				<li><a href="">works</a></li>
+				<li><a href="">blog</a></li>
+				<li><a href="">contact</a></li>
+			</ul>
 		</div>
-	</header>
 	<div class="baner">
 		<h2>best createve studio</h2>
-		<h1>desigh/branding/wordpres</h1>
+		<h1>desigh / branding / wordpres</h1>
 		<h2>we make great ideas happen</h2>
-		<input type="submit" name="buttonTop" value="learn more" >
+		<a href="#" class="buttonHeader">learn more</a>
 	</div>
-	<section>
-		<div class="text_x">
+	</header>
+	<section class="about padding20">
+		<div class="textX">
 		<h3 class="description">about</h3>
 		<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
 		</div>
 		<div class="story">
+			<div class="img">
+				<img src="img/lamp.png" alt="lamp" class="autoCenter">
+			</div>
+			<div class="textContent">
+				<h4>our story</h4>
+				<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </span>
+				<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a </p>
+			</div>
 			<img src="img/shape 1.png" alt="shape" class="photo">
-			<img src="img/bulb.png" alt="bulb">
-			<h4>our story</h4>
-			<span>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </span>
-			<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a </p>
 		</div>
 		<div class="skill">
-			<img src="" alt="" class="showcase">
-			<img src="" alt="">
-			<h4>our skills</h4>
-			<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+			<div class="iphone">
+				<img src="img/iPhone.png" alt="Iphone">
+			</div>
+			<div class="content">
+				<div class="img">
+					<img src="img/params.png" alt="icon" class="imgCenter">
+				</div>
+				<div class="text">
+					<h4>our skills</h4>
+					<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+			</div>
+			<img src="img/grafik.png" alt="graphic" class="graphic">
+			</div>
 		</div>
 	</section>
-	<section class="qute">
-		<p>"Simplicity is about subtracting the obviousand adding the meaningful"</p>
-		<span>John Maeda</span>
+	<section class="qute padding20">
+		<div class="quteT">
+		<span>Simplicity is about subtracting the obvious and adding the meaningful</span>
+		</div>
+		<div class="line"></div>
+		<p>John Maeda</p>
 	</section>
-	<section class="team">
-		<div class="text_x">
-		<h3 class="description">team</h3>
-		<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+	<section class="team padding20">
+		<div class="textX">
+			<h3 class="description">team</h3>
+			<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
 		</div>
 		<div class="container">
-			<div>
+			<div class="team">
 				<img src="img/avatar.png" alt="avatar">
 				<h4>john doe</h4>
 				<span>Founder</span>
+				<div class="line2"></div>
 				<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+				<a href="#" class="fab fa-twitter"></a>
+				<a href="#" class="fab fa-facebook-f"></a>
+				<a href="#" class="fab fa-dribbble"></a>
+				<a href="#" class="fab fa-google-plus-g"></a>
+				<a href="#" class="fab fa-linkedin-in"></a>
 			</div>
-			<div>
+			<div class="team">
 				<img src="img/avatar.png" alt="avatar">
 				<h4>jesmine doe</h4>
 				<span>Designer</span>
+				<div class="line2"></div>
 				<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+				<a href="#" class="fab fa-twitter"></a>
+				<a href="#" class="fab fa-facebook-f"></a>
+				<a href="#" class="fab fa-dribbble"></a>
+				<a href="#" class="fab fa-google-plus-g"></a>
+				<a href="#" class="fab fa-linkedin-in"></a>
 			</div>
-			<div>
+			<div class="team">
 				<img src="img/avatar.png" alt="avatar">
 				<h4>martin doe</h4>
 				<span>Developer</span>
+				<div class="line2"></div>
 				<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+				<a href="#" class="fab fa-twitter"></a>
+				<a href="#" class="fab fa-facebook-f"></a>
+				<a href="#" class="fab fa-dribbble"></a>
+				<a href="#" class="fab fa-google-plus-g"></a>
+				<a href="#" class="fab fa-linkedin-in"></a>
 			</div>
-			<div>
+			<div class="team">
 				<img src="img/avatar.png" alt="avatar">
 				<h4>anthony doe</h4>
 				<span>Photographer</span>
+				<div class="line2"></div>
 				<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </p>
+				<a href="#" class="fab fa-twitter"></a>
+				<a href="#" class="fab fa-facebook-f"></a>
+				<a href="#" class="fab fa-dribbble"></a>
+				<a href="#" class="fab fa-google-plus-g"></a>
+				<a href="#" class="fab fa-linkedin-in"></a>
 			</div>
 		</div>
 	</section>
-	<section class="facts">
+	<section class="facts padding20">
 		<div>
-			<span>6k+</span>
-			<p>Coffees</p>
+			<div class="img fixator">
+				<i class="fas fa-mug-hot"></i>
+			</div>
+			<div class="textFacts">
+				<span>6k+</span>
+				<p>Coffees</p>
+			</div>
 		</div>
 		<div>
-			<span>743</span>
-			<p>Projects</p>
+			<div class="img fixator">
+				<i class="fas fa-layer-group"></i>
+			</div>
+				<div class="textFacts">
+					<span>743</span>
+					<p>Projects</p>
+				</div>
 		</div>
 		<div>
-			<span>435</span>
-			<p>Clients</p>
+			<div class="img fixator">
+				<i class="fas fa-user"></i>
+			</div>
+				<div class="textFacts">
+					<span>435</span>
+					<p>Clients</p>
+				</div>
 		</div>
 		<div>
-			<span>225</span>
-			<p>Awards</p>
+			<div class="img fixator">
+				<i class="far fa-thumbs-up"></i>
+			</div>
+				<div class="textFacts">
+					<span>225</span>
+					<p>Awards</p>
+				</div>
 		</div>
 	</section>
-	<section class="services">
-		<div class="text_x">
+	<section class="services padding20">
+		<div class="textX">
 			<h3 class="description">service</h3>
 			<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
 		</div>
-		<div>
-			<div>
-				<span></span>
-				<p></p>
+		<div class="blockInfo"> 
+			<div class="info">
+				<div class="img">
+					<i class="far fa-star fa-2x"></i>
+				</div>
+				<span class="textS" >Designing</span>
+				<p class="textP">Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</p>
 			</div>
-			<div>
-				<span></span>
-				<p></p>
+			<div class="info">
+				<div class="img">
+					<i class="fas fa-flask fa-2x"></i>
+				</div>
+				<span class="textS" >Developing</span>
+				<p class="textP">Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</p>
 			</div>
-			<div>
-				<span></span>
-				<p></p>
+			<div class="info">
+				<div class="img">
+					<i class="fas fa-globe fa-2x"></i>
+				</div>
+				<span class="textS" >Branding</span>
+				<p class="textP">Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</p>
+			</div>
+		</div>
+		<div class="tableInfo">
+			<div class="pricing">
+				<div class="img">
+						<i class="fas fa-money-bill-wave-alt fa-2x"></i>
+					</div>
+					<span class="textS" >Packege Pricing</span>
+					<p class="textP textLeft">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+				</div>
+				<table class="price">
+					<thead>
+					<tr class="first">
+						<th><p>BASIC</p> <div class="line"></div> <span>$35</span></th>
+						<th>GOLD  <div class="line"></div> <span>$99</span></th>
+						<th>SILVER  <div class="line"></div> <span>$65</span></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>First Description</th>
+						<th>First Description</th>
+						<th>First Description</th>
+					</tr>
+					<tr>
+						<th>Second Description</th>
+						<th>Second Description</th>
+						<th>Second Description</th>
+					</tr>
+					<tr>
+						<th>Third Description</th>
+						<th>Third Description</th>
+						<th>Third Description</th>
+					</tr>
+					<tr>
+						<th>Fourth Description</th>
+						<th>Fourth Description</th>
+						<th>Fourth Description</th>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th><a class="buttonTable" href="#">PURCHASE</a></th>
+						<th><a class="buttonTable" href="#">PURCHASE</a></th>
+						<th><a class="buttonTable" href="#">PURCHASE</a></th>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+	</section>
+	<section class="testimonial padding20">
+		<div class="testimonial__content">
+			<h3>Maria Jones</h3>
+			<div class="line"></div>
+				<p>“Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+				auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.”</p>
+			<div class="testimonial__content__avatar">
+				<img src="img/face.png" alt="avatar">
 			</div>
 		</div>
 	</section>
-	<section></section>
-	<section></section>
-	<section></section>
-	<section></section>
-	<section></section>
+	<section class="padding20 works">
+		<div class="textX">
+			<h3 class="description">Portfolio</h3>
+			<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+		</div>
+		<div class="works__slaid"> 
+			<img src="img/slaid.png" alt="slaid">
+		</div>
+		<div class="works__name">
+			<h3>Digital ArtWork</h3>
+			<p>Graphic Design</p>
+		</div>
+	</section>
+	<section class=" padding20">
+		<div class="menu__photo">
+			<ul class="menu">
+				<li class="all__work"><a href="#">All Work</a></li>
+				<li class="graphics"><a href=".graphics">Graphics</a></li>
+				<li class="web__design"><a href="">WebDesign</a></li>
+				<li class="branding"><a href="">Branding</a></li>
+				<li class="video"><a href="">Video</a></li>
+				<li class="photography"><a href="">Photography</a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="tweet padding20">
+		<div class="tweet__content">
+			<div class="img">
+				<i class="fab fa-twitter"></i>
+			</div>
+			<h3>Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh<span> ow.ly/ttlwd</span></h3>
+			<p>3 hours ago</p>
+		</div>
+	</section>
+
+	<section class="all__blog padding20">
+		<div class="textX">
+			<h3 class="description">blog</h3>
+			<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+		</div>
+
+		<div class="big__post">
+			<div class="post">
+				<div class="kartinka">
+					<img src="img/bg__blog.png" alt="kartina">
+				</div>
+				<div class="post__content">
+					<div>
+						<span>21 Feb ‘14</span>
+						<span>John Doe</span>
+						<span>24 Comment</span>
+					</div>
+					<div>
+						<h3>Awesome Blog Post Title Goes Here</h3>
+						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+						<a href="#" class="button__blog">read on</a>
+					</div>
+				</div>	
+			</div>
+
+			<div class="post">
+				<div class="kartinka">
+					<img src="img/bg__blog.png" alt="kartina">
+				</div>
+				<div class="post__content">
+					<div>
+						<span>21 Feb ‘14</span>
+						<span>John Doe</span>
+						<span>24 Comment</span>
+					</div>
+					<div>
+						<h3>Awesome Blog Post Title Goes Here</h3>
+						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+						<a href="#" class="button__blog">read on</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="post">
+				<div class="kartinka">
+					<img src="img/bg__blog.png" alt="kartina">
+				</div>
+				<div class="post__content">
+					<div>
+						<span>21 Feb ‘14</span>
+						<span>John Doe</span>
+						<span>24 Comment</span>
+					</div>
+					<div>
+						<h3>Awesome Blog Post Title Goes Here</h3>
+						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+						<a href="#" class="button__blog">read on</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<div class="post">
+				<div class="kartinka">
+					<img src="img/bg__blog.png" alt="kartina">
+				</div>
+				<div class="post__content">
+					<div>
+						<span>21 Feb ‘14</span>
+						<span>John Doe</span>
+						<span>24 Comment</span>
+					</div>
+					<div>
+						<h3>Awesome Blog Post Title Goes Here</h3>
+						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+						<a href="#" class="button__blog">read on</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	<section></section>
 	<section></section>
 	<footer></footer>

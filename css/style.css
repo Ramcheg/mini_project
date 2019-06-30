@@ -1,0 +1,581 @@
+.padding20 {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+									/*SETUP OPTION */
+
+
+
+					/*HEADER*/
+body {
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+
+header {
+	background: url(../img/bg_header.png) no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover ;
+	background-size: cover ;
+	padding-top: 85px;
+	padding-bottom: 300px;
+	color: #fff;
+	text-transform: uppercase;
+}
+ h4{
+ 	font-weight: bold;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+ }
+ 
+ .fullMenu {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-content: space-between;
+
+ }
+
+.menu {
+ 	padding-top: 60px;
+ }
+
+.menu a{
+	font-weight: 600; 
+	font-size: 18px;
+	display: inline-block;
+	padding-left: 25px;
+	padding-right: 25px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	color:black;
+	transform: 0.6;
+}
+
+.menu li {
+	display: inline;
+}
+
+.baner {
+	padding-top: 200px;
+	display: block;
+	text-align: center;
+
+
+}
+.baner h1 {
+	font-weight: bold;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	font-size: 70px;
+}
+.baner h2:first-child {
+	font-weight: lighter;
+	font-size: 45px;
+}
+.baner h2{
+	font-size: 40px;
+}
+.buttonHeader {
+	background: #f39c12;
+	display: inline-block;
+	padding: 15px 40px;
+	margin-top: 95px;
+	color: #fff;
+	font-size: 17px;
+	font-weight: 600;
+	text-decoration: none;
+}
+ul li + li:before{
+	content:" \\\\ "
+}
+
+
+					/*ABOUT*/
+
+.textX {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 130px;
+}
+.textX h3 {
+	padding-right: 18px;
+	font-size: 30px;
+	font-weight: bold;
+}
+.textX p {
+	display: inline-block;
+	font-size: 14px;
+	padding-left: 18px;
+	color: #525252;
+	line-height: 25px;
+	border-left: 4px solid #f39c12;
+	border-radius: 2px 2px;
+}
+
+.about {
+	margin-bottom: 110px;
+}
+.story {
+	padding-top: 140px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	border-bottom: 2px solid #e6e6e6;
+	padding-bottom: 120px; 
+}
+.img {
+	flex: 0 0 5%;
+	padding: 40px;
+	border: 2px solid #f39c12;
+	border-radius: 50%
+}
+.autoCenter {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.photo {
+	flex: 0 0  40%;
+}
+.textContent {
+	flex: 0 0 40%;
+}
+.textContent span{
+	color: #e74c3c;
+	font-size: 17px;
+	font-weight: lighter;
+	padding-bottom: 20px;
+	display: block;
+	line-height: 21px;
+}
+.textContent p{
+	line-height: 21px;
+	color: #737373;
+}
+.skill {
+	padding-top: 140px;
+	display: flex;
+	/*justify-content: space-between;*/
+	/*align-items: flex-end;*/
+}
+.iphone {
+	display: flex;
+	flex: 0 0 40%;
+}
+.content {
+	margin-left: 95px;
+	padding-top: 60px;
+	flex: 0 0 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+.graphic {
+	margin-top: 100px;
+}
+
+.text {
+	flex: 0 0 50%;
+	padding-left: 30px;
+}
+.text p{
+	line-height: 21px;
+	color: #737373;
+}
+.imgCenter {
+	display: flex;
+	margin: auto;
+}
+
+.qute {
+	display: flex;
+	flex-direction: column;
+	background-image: url(../img/palma.png);
+	/*background-position:left;*/
+	padding-top: 100px;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.quteT { 
+	line-height: 40px;
+	padding-top: 200px;
+	padding-bottom: 25px;
+	display: flex;
+	width: 60%
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.quteT:after {
+	content: '”';
+	font-weight: bold;
+	font-size: 110px;
+	padding-left: 90px;
+}
+.quteT:before {
+	content: '“';
+	font-weight: bold;
+	font-size: 110px;
+	padding-right: 90px;
+}
+.qute p{
+	padding-bottom: 260px;
+}
+.line {
+	margin-bottom: 10px;
+	width: 50px;
+	margin-left: auto;
+    margin-right: auto;
+	height: 3px;
+	background: #f39c12;
+}
+
+.container {
+	display: flex;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.container > div {
+	text-align: center;
+	padding-top: 25px;
+	padding-right: 35px;
+	padding-left: 35px;
+	width: 19%;
+	border-top: 4px solid #fff; 
+}
+.container > div:hover {
+	border-top: 4px solid #f39c12;
+	background: #f0f0f0;
+}
+
+.container div:hover .line2{
+	background: red;
+	}
+
+.container h4 {
+	margin-bottom: 5px;
+}
+
+.container span {
+	font-size: 14px;
+	color: #999999;
+	margin-bottom: 20px;
+}
+.container p{
+	color: #737373;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.line2 {
+	margin-top:10px;
+	width: 20px;
+	margin-left: auto;
+    margin-right: auto;
+	height: 3px;
+	background: #ccc;
+}
+.container img {
+	margin-bottom: 25px;
+}
+.team {
+	padding-bottom: 20px;
+}
+
+.team a {
+	text-decoration: none;
+	color: #999999;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.team > a:hover{
+	color: #f39c12;
+}
+
+.facts {
+	height: 30vh;
+	display: flex;
+	background-image: url(../img/palma.png);
+	padding-top: 100px;
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 375px;
+}
+
+.facts div {
+	/*padding-top: 0px;*/
+	/*padding-top: 135px;*/
+	display: flex;
+	flex-direction: column;
+	/*justify-content: space-between;*/
+	align-items: center;
+	/*align-content: space-around;*/
+	flex: 0 0 25%;
+	/*padding-bottom: 240px;*/
+}
+
+.fixator {
+	width: 70px;
+	margin-top: 110px;
+	margin-bottom: 25px;
+}
+.fixator i {
+	padding-top: 10px;
+}
+.facts div:hover > .fixator i{
+	color: #f39c12;
+}
+.textFacts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.textFacts p {
+	font-size: 24px
+}
+
+.facts > div:hover  .img{
+	border-color: white;
+}
+
+
+.blockInfo {
+	margin-top: 110px;
+	display: flex;
+	align-items: center;
+	padding-bottom: 110px;
+	border-bottom: 2px solid #e6e6e6;
+
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex: 0 0  33.333%;
+}
+
+.textS {
+	font-size: 17px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 15px;
+}
+
+.textP {
+	padding-top: 15px;
+	text-align: center;
+	font-size: 13px;
+	color: #737373;
+	line-height: 20px;
+}
+.info:hover > .img {
+	background: #f39c12;
+}
+
+.tableInfo{
+	justify-content: space-between;
+	display: flex;
+	margin-top: 110px;
+	margin-bottom: 110px;
+}
+
+.pricing {
+	display: flex;
+	flex-direction: column;
+	flex: 0 0 27%;
+	align-items: flex-start;
+	text-align: left;
+
+}
+
+.textLeft {
+	text-align: left;
+}
+.pricing:hover   .img {
+	background: #f39c12;
+}
+
+  th {
+  	text-align: center;
+  	vertical-align: middle;
+  	border: 1px solid #e6e6e6;
+  }
+table { 
+	border: 2px solid #e6e6e6;
+	flex: 0 0 60%;
+}
+thead .line {
+	margin-top: 20px;
+}
+thead th {
+	font-weight: bold;
+	font-size: 21px;
+	height: 110px;
+}
+tbody th{
+	height: 45px;
+	color: #737373;
+}
+tfoot th {
+	height: 80px;
+}
+ tfoot a {
+ 	padding: 7px 25px;
+	border: 2px solid #f39c12;
+	text-decoration: none;
+	color: black;
+}
+.buttonTable:hover {
+	background: #f39c12;
+}
+.buttonTable:hover ~ tbody th{
+	background: black;
+	padding-top: 20px;
+}
+ .testimonial{
+	height: 30vh;
+	background-image: url(../img/palma.png);
+	padding-top: 100px;
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 375px;
+}
+
+.testimonial__content {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 38px;
+}
+
+.testimonial__content h3 {
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.testimonial__content p {
+	margin-top: 10px;
+	font-size: 21px;
+	text-align: center;
+}
+
+.testimonial__content__avatar {
+	margin-top: 40px;
+}
+
+.works {
+	marker-top: 120px;
+}
+
+.works__slaid {
+	margin-top: 120px;
+	padding-bottom: 200px;
+}
+.works__name {
+	padding-bottom: 120px;
+	border-bottom: 2px solid black;
+}
+
+.menu__photo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.menu__photo a {
+	text-transform: uppercase;
+	color: black;
+	font-size: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.menu__photo a:hover {
+	color: #f39c12;
+}
+
+button {
+	text-decoration: none;
+}
+
+.tweet{
+	height: 30vh;
+	background-image: url(../img/palma.png);
+	padding-top: 100px;
+	font-size: 30px;
+	color: #fff;
+	padding-bottom: 375px;
+}
+
+.tweet__content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 120px;
+}
+.tweet__content .img {
+	margin-bottom: 30px;
+	color: #f39c12;
+	border-color: white;
+}
+
+.tweet__content h3 {
+ 	font-size: 23px;
+ 	text-align: center;
+ 	font-weight: bold;
+ 	line-height: 30px;
+}
+.tweet__content span {
+	color: #f39c12;
+}
+
+.tweet__content p {
+	margin-top: 20px;
+	font-size: 10px;
+	color: #808080;
+}
+
+.big__post {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.post {
+	display: flex;
+	/*align-items: flex-start;*/
+	width: 50%;
+	flex-direction: column;
+}
+.kartinka img {
+	width: 90%;
+}
+
+.post__content {
+	/*display: flex;*/
+	flex-direction: column;
+}
+/*}
+.kartinka {
+	display: flex;
+	flex: 0 0 20%
+}*/
