@@ -658,9 +658,8 @@ ul li + li:before{
 }
 
 .element-item {
-	width: 290px;
+	flex: 0 0 33.33%;
 	display: flex;
-	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
