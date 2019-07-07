@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>mini</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet"> 
@@ -23,7 +25,7 @@
 		</div>
 	<div class="baner">
 		<h2>best createve studio</h2>
-		<h1>desigh / branding / wordpres</h1>
+		<h1>design / branding / wordpres</h1>
 		<h2>we make great ideas happen</h2>
 		<a href="#" class="buttonHeader">learn more</a>
 	</div>
@@ -197,54 +199,75 @@
 					<span class="textS" >Packege Pricing</span>
 					<p class="textP textLeft">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
 				</div>
-				<table class="price">
-					<thead>
-					<tr class="first">
-						<th><p>BASIC</p> <div class="line"></div> <span>$35</span></th>
-						<th>GOLD  <div class="line"></div> <span>$99</span></th>
-						<th>SILVER  <div class="line"></div> <span>$65</span></th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<th>First Description</th>
-						<th>First Description</th>
-						<th>First Description</th>
-					</tr>
-					<tr>
-						<th>Second Description</th>
-						<th>Second Description</th>
-						<th>Second Description</th>
-					</tr>
-					<tr>
-						<th>Third Description</th>
-						<th>Third Description</th>
-						<th>Third Description</th>
-					</tr>
-					<tr>
-						<th>Fourth Description</th>
-						<th>Fourth Description</th>
-						<th>Fourth Description</th>
-					</tr>
-				</tbody>
-				<tfoot>
-					<tr>
-						<th><a class="buttonTable" href="#">PURCHASE</a></th>
-						<th><a class="buttonTable" href="#">PURCHASE</a></th>
-						<th><a class="buttonTable" href="#">PURCHASE</a></th>
-					</tr>
-				</tfoot>
-			</table>
+
+
+
+
+
+				<div class="price">
+					<div class="price__one price__block">
+						<div><p>basic</p><span>$35</span></div>
+						<div><p>First Description</p></div>
+						<div><p>Second Description</p></div>
+						<div><p>Third Description</p></div>
+						<div><p>Fourth Description</p></div>
+						<div><a class="buttonTable" href="#">purchase</a></div>
+					</div>
+
+					<div class="price__one price__block">
+						<div><p>gold</p><span>$99</span></div>
+						<div><p>First Description</p></div>
+						<div><p>Second Description</p></div>
+						<div><p>Third Description</p></div>
+						<div><p>Fourth Description</p></div>
+						<div><a class="buttonTable" href="#">purchase</a></div>
+					</div>
+
+					<div class="price__one price__block">
+						<div><p>silver</p><span>$65</span></div>
+						<div><p>First Description</p></div>
+						<div><p>Second Description</p></div>
+						<div><p>Third Description</p></div>
+						<div><p>Fourth Description</p></div>
+						<div><a class="buttonTable" href="#">purchase</a></div>
+					</div>
+				</div>
 		</div>
 	</section>
-	<section class="testimonial padding20">
-		<div class="testimonial__content">
-			<h3>Maria Jones</h3>
-			<div class="line"></div>
-				<p>“Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-				auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.”</p>
-			<div class="testimonial__content__avatar">
-				<img src="img/face.png" alt="avatar">
+	<section class="bg padding20">
+		<div class="testimonial">
+			<div>
+				<div class="testimonial__content">
+						<h3>Maria Jones</h3>
+					<div class="line"></div>
+						<p>“Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+						auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.”</p>
+					<div class="testimonial__content__avatar">
+						<img src="img/face.png" alt="avatar">
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testimonial__content">
+						<h3>Maria Jones</h3>
+					<div class="line"></div>
+						<p>“Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+						auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.”</p>
+					<div class="testimonial__content__avatar">
+						<img src="img/face.png" alt="avatar">
+					</div>
+				</div>
+			</div>
+			<div>
+				<div class="testimonial__content">
+						<h3>Maria Jones</h3>
+					<div class="line"></div>
+						<p>“Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
+						auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.”</p>
+					<div class="testimonial__content__avatar">
+						<img src="img/face.png" alt="avatar">
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -253,25 +276,194 @@
 			<h3 class="description">Portfolio</h3>
 			<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
 		</div>
-		<div class="works__slaid"> 
-			<img src="img/slaid.png" alt="slaid">
+		<div class="works__slaiders">
+			<div class="works__slaid">
+				<div> 
+					<img src="img/slaid.png" alt="slaid">
+				</div>
+			</div>
+			<div class="works__slaid">
+				<div> 
+					<img src="img/slaid.png" alt="slaid">
+				</div>
+			</div>
+			<div class="works__slaid">
+				<div> 
+					<img src="img/slaid.png" alt="slaid">
+				</div>
+			</div>
 		</div>
 		<div class="works__name">
 			<h3>Digital ArtWork</h3>
 			<p>Graphic Design</p>
 		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class=" button-group filters-button-group">
+  <button class="button is-checked" data-filter="*">all work</button>
+  <button class="button" data-filter=".brig">graphics</button>
+  <button class="button" data-filter=".transition">transition</button>
+  <button class="button" data-filter=".alkali, .alkaline-earth">alkali and alkaline-earth</button>
+  <button class="button" data-filter=":not(.transition)">not transition</button>
+</div>
+
+<div class="grid">
+  <div class="element-item transition brig " data-category="transition">
+  	<a href="#">
+  		<div class="img__block">
+	  	<img src="img/shape1.png" alt="img">
+	    <h3 class="name">Mercury</h3>
+	    <p class="symbol">Hg</p>
+	    </div>
+    </a>
+  </div>
+  <div class="element-item metalloid " data-category="metalloid">
+  	<a href="#">
+  		<div class="img__block">
+	  	<img src="img/shape.png" alt="img">
+	    <h3 class="name">Tellurium</h3>
+	    <p class="symbol">Te</p>
+	    </div>
+    </a>
+  </div>
+  <div class="element-item post-transition metal " data-category="post-transition">
+  	<a href="#">
+  		<div class="img__block">
+	  	<img src="img/shape1.png" alt="img">
+	    <h3 class="name">Bismuth</h3>
+	    <p class="symbol">Bi</p>
+	    </div>
+    </a>
+  </div>
+  <div class="element-item post-transition metal " data-category="post-transition">
+  	<a href="#">
+  		<div class="img__block">
+	  	<img src="img/shape.png" alt="img">
+	    <h3 class="name">Lead</h3>
+	    <p class="symbol">Pb</p>
+	    </div>
+    </a>
+  </div>
+  <div class="element-item transition metal " data-category="transition">
+  	<a href="#">
+	  	<img src="img/shape1.png" alt="img">
+	    <h3 class="name">Gold</h3>
+	    <p class="symbol">Au</p>
+    </a>
+  </div>
+  <div class="element-item alkali metal " data-category="alkali">
+  	<a href="#">
+	  	<img src="img/shape.png" alt="img">
+	    <h3 class="name">Potassium</h3>
+	    <p class="symbol">K</p>
+	</a>  
+</div>
+  <div class="element-item alkali metal " data-category="alkali">
+  	<a href="#">
+	  	<img src="img/shape1.png" alt="img">
+	    <h3 class="name">Sodium</h3>
+	    <p class="symbol">Na</p>
+    </a>
+  </div>
+  <div class="element-item transition metal " data-category="transition">
+  	<a href="#">
+	  	<img src="img/shape.png" alt="img">
+	    <h3 class="name">Cadmium</h3>
+	    <p class="symbol">Cd</p>
+    </a>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	</section>
 	<section class=" padding20">
-		<div class="menu__photo">
-			<ul class="menu">
-				<li class="all__work"><a href="#">All Work</a></li>
-				<li class="graphics"><a href=".graphics">Graphics</a></li>
-				<li class="web__design"><a href="">WebDesign</a></li>
-				<li class="branding"><a href="">Branding</a></li>
-				<li class="video"><a href="">Video</a></li>
-				<li class="photography"><a href="">Photography</a></li>
-			</ul>
-		</div>
+	
 	</section>
 	<section class="tweet padding20">
 		<div class="tweet__content">
@@ -292,15 +484,16 @@
 		<div class="big__post">
 			<div class="post">
 				<div class="kartinka">
+					<i class="far fa-images"></i>
 					<img src="img/bg__blog.png" alt="kartina">
 				</div>
 				<div class="post__content">
-					<div>
+					<div class="info_static">
 						<span>21 Feb ‘14</span>
 						<span>John Doe</span>
 						<span>24 Comment</span>
 					</div>
-					<div>
+					<div class="text__block">
 						<h3>Awesome Blog Post Title Goes Here</h3>
 						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
 						<a href="#" class="button__blog">read on</a>
@@ -310,15 +503,16 @@
 
 			<div class="post">
 				<div class="kartinka">
+					<i class="far fa-image"></i>
 					<img src="img/bg__blog.png" alt="kartina">
 				</div>
 				<div class="post__content">
-					<div>
+					<div class="info_static">
 						<span>21 Feb ‘14</span>
 						<span>John Doe</span>
 						<span>24 Comment</span>
 					</div>
-					<div>
+					<div class="text__block">
 						<h3>Awesome Blog Post Title Goes Here</h3>
 						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
 						<a href="#" class="button__blog">read on</a>
@@ -328,15 +522,16 @@
 
 			<div class="post">
 				<div class="kartinka">
+					<i class="fas fa-film"></i>
 					<img src="img/bg__blog.png" alt="kartina">
 				</div>
 				<div class="post__content">
-					<div>
+					<div class="info_static">
 						<span>21 Feb ‘14</span>
 						<span>John Doe</span>
 						<span>24 Comment</span>
 					</div>
-					<div>
+					<div class="text__block">
 						<h3>Awesome Blog Post Title Goes Here</h3>
 						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
 						<a href="#" class="button__blog">read on</a>
@@ -347,15 +542,16 @@
 
 			<div class="post">
 				<div class="kartinka">
+					<i class="fas fa-headphones"></i>
 					<img src="img/bg__blog.png" alt="kartina">
 				</div>
 				<div class="post__content">
-					<div>
+					<div class="info_static">
 						<span>21 Feb ‘14</span>
 						<span>John Doe</span>
 						<span>24 Comment</span>
 					</div>
-					<div>
+					<div class="text__block">
 						<h3>Awesome Blog Post Title Goes Here</h3>
 						<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
 						<a href="#" class="button__blog">read on</a>
@@ -364,8 +560,99 @@
 			</div>
 		</div>
 	</section>
-	<section></section>
-	<section></section>
-	<footer></footer>
+	<section class="tweet padding20">
+		<div class="clients">
+			<h3>out clients</h3>
+			<div class="company">
+			<div>
+				<img src="img/echonote.png" alt="company echoNote">
+			</div>
+			<div>
+				<img src="img/color.png" alt="company Color">
+			</div>
+			<div>
+				<img src="img/wiesinger__music.png" alt="company wiesinger music">
+			</div>
+			<div>
+				<img src="img/continens.png" alt="company continens">
+			</div>
+		</div>
+		</div>
+	</section>
+	<section class="contact__block padding20">
+		<div class="textX">
+			<h3 class="description">contact</h3>
+			<p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. </p>
+		</div>
+		<div class="info__contact">
+			<div class="forma">
+				<h3>Drop Us A Message</h3>
+				<form method="post" action="#" id="#">
+					<div class="forma__block">
+						<label for="name">Mike</label>
+						<input class="button__one" type="text" name="name" id="name" required>
+						<i class="far fa-user"></i>
+					</div>
+					<div class="forma__block">
+						<label for="email">Email</label>
+						<input class="button__two" type="text" name="email" id="email" required>
+						<i class="far fa-envelope"></i>
+					</div>
+					<div class="forma__block forma__block__last">
+						<label for="message">Message</label>
+						<textarea class="text__write" name="text" id="message" cols="50" rows="6"></textarea>
+						<i class="fas fa-pencil-alt"></i>
+					</div>
+					<button type="submit">SUBMIT</button>
+				</form>
+			</div>
+			<div class="infor">
+				<h3>Contact Info</h3>
+				<p class="p__content">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</p>
+				<div class="markers">
+					<div>
+						<i class="fas fa-map-marker-alt"></i>
+						<p>13/2 Elizabeth St, Melbourne VIC 3000, Australia</p>
+					</div>
+					<div>
+						<i class="fas fa-phone-alt"></i>
+						<p>+61 3146 8728, +61 0987 6543</p>
+					</div>
+					<div>
+						<i class="fas fa-envelope-square"></i>
+						<p>support@envato.net</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1901.345311346673!2d144.96489182061217!3d-37.817579957535244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x5f54994233268fc3!2zMTMvMiBFbGl6YWJldGggU3QsIE1lbGJvdXJuZSBWSUMgMzAwNCwg0JDQstGB0YLRgNCw0LvQuNGP!5e0!3m2!1sru!2sua!4v1562175476441!5m2!1sru!2sua" width="1900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<footer class="padding20">
+		<div>
+		<p>&copy; MINI 2014, All Right Reserves<span>Designed By bigpsfan & Metrothemes</span></p>
+		</div>
+		<div class="social">
+			<a href="#" class="fab fa-twitter"></a>
+			<a href="#" class="fab fa-facebook-f"></a>
+			<a href="#" class="fab fa-linkedin-in"></a>
+			<a href="#" class="fab fa-dribbble"></a>
+			<a href="#" class="fab fa-pinterest-p"></a>
+			<a href="#" class="fab fa-google-plus-g"></a>
+			<a href="#" class="fas fa-rss"></a>
+			
+		</div>
+
+	</footer>
+
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 </body>
 </html>
