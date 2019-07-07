@@ -1,4 +1,12 @@
 
+$('.baner__bro').slick({
+	slidesToShow: 1,
+	dots: true,
+     slidesToScroll: 1,
+     autoplay: true,
+     autoplaySpeed: 4000,
+    arrows : false,
+});
 $('.testimonial').slick({
 	slidesToShow: 1,
 	dots: true,

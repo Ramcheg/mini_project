@@ -17,7 +17,7 @@ header {
 	background-position: top center;
 	background-size: cover ;
 	padding-top: 85px;
-	padding-bottom: 300px;
+	padding-bottom: 190px;
 	color: #fff;
 	text-transform: uppercase;
 }
@@ -75,7 +75,7 @@ header {
 	font-weight: bold;
 	padding-top: 26px;
 	padding-bottom: 26px;
-	font-size: 70px;
+	font-size: 50px;
 }
 .baner h2:first-child {
 	font-weight: lighter;
@@ -96,6 +96,18 @@ header {
 }
 ul li + li:before{
 	content:" \\\\ "
+}
+
+
+.baner__bro .slick-dots {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-top: 130px;
+
 }
 
 .textX {
@@ -756,6 +768,10 @@ ul li + li:before{
 	        justify-content: center;
 }
 
+button {
+	font-family: 'Open Sans', sans-serif;
+}
+
 
 
 .button + .button:before {
@@ -813,18 +829,28 @@ ul li + li:before{
 	    flex-wrap: wrap;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
-	    /*width: 80%;*/
 
+}
+
+.element-item a {
+	overflow: none;
+	text-decoration: none;
 }
 
 .element-item h3 {
 	text-align: center;
-	overflow: none;
-	text-decoration: none;
 	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 15px;
+	color: #000;
+
 }
 
 .element-item p {
+	margin-top: 10px; 
+	margin-bottom: 15px;
+	font-size: 12px;
+	color: #949494;
 	text-align: center;
 }
 
@@ -839,7 +865,7 @@ ul li + li:before{
 
 .image__plus {
 	position: absolute;
-	top: 45%;
+	top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
        -ms-transform: translate(-50%, -50%);
@@ -856,18 +882,10 @@ ul li + li:before{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.element-item:hover  h3 {
+	color: #f39c12;
+	transition: 0.3s;
+}
 
 .menu__photo {
 	display: -webkit-box;
@@ -892,59 +910,6 @@ ul li + li:before{
 .menu__photo a:hover {
 	color: #f39c12;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 button {
 	text-decoration: none;
