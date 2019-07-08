@@ -53,6 +53,12 @@ $(document).ready(function(){
 		$(".text__write").parent().css("border", "2px solid #d9d9d9").css("color", "#808080");
 	})
 
+	$('.mob__menu').click(function(){
+		$(this).nextAll('.menu').slideToggle(500);
+	})
+
+
+
 
 	// external js: isotope.pkgd.js
 

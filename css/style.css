@@ -41,6 +41,7 @@ header {
 
 .menu {
  	padding-top: 60px;
+ 	display: flex;
  }
 
 .menu a{
@@ -161,6 +162,7 @@ ul li + li:before{
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 0 5%;
 	        flex: 0 0 5%;
+	        /*max-width: 5%;*/
 	padding: 40px;
 	border: 2px solid #f39c12;
 	border-radius: 50%
@@ -174,11 +176,13 @@ ul li + li:before{
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 0  40%;
 	        flex: 0 0  40%;
+	        max-width: 40%;
 }
 .textContent {
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 0 40%;
 	        flex: 0 0 40%;
+	        max-width: 40%;
 }
 .textContent span{
 	color: #e74c3c;
@@ -203,15 +207,20 @@ ul li + li:before{
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 0 40%;
-	        flex: 0 0 40%;
+	    -ms-flex: 0 0 50%;
+	        flex: 0 0 50%;
+}
+
+.iphone img {
+	max-width: 100%;
 }
 .content {
 	margin-left: 95px;
 	padding-top: 60px;
 	-webkit-box-flex: 0;
-	    -ms-flex: 0 0 80%;
-	        flex: 0 0 80%;
+	    -ms-flex: 0 0 50%;
+	        flex: 0 0 50%;
+	        max-width: 50%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -225,7 +234,8 @@ ul li + li:before{
 	        align-items: center;
 }
 .graphic {
-	margin-top: 100px;
+	margin-top: 50px;
+	max-width: 80%;
 }
 
 .text {
@@ -312,7 +322,7 @@ ul li + li:before{
 	padding-top: 25px;
 	padding-right: 35px;
 	padding-left: 35px;
-	width: 19%;
+	max-width: 19%;
 	border-top: 4px solid #fff; 
 }
 .container > div:hover {
@@ -390,6 +400,7 @@ ul li + li:before{
 	-webkit-box-flex: 0;
 	    -ms-flex: 0 0 25%;
 	        flex: 0 0 25%;
+	max-width: 25%;
 }
 
 .fixator {
@@ -690,6 +701,7 @@ ul li + li:before{
 .works__slaid img {
 	margin-bottom: 30px;
 	height: 550px;
+	max-width: 100%;
 }
 
 .works__slaiders .slick-dots {
@@ -723,6 +735,9 @@ ul li + li:before{
 }
 .works__slaiders {
 	padding-bottom: 30px;
+	display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 .works__name {
@@ -989,7 +1004,8 @@ button {
 }
 
 .kartinka img {
-	width: 99%;
+	/*width: 99%;*/
+	max-width: 99%;
 }
 
 .kartinka i{
@@ -999,7 +1015,7 @@ button {
 	position: absolute;
 	z-index: 2;
 	bottom: 2px;
-	left: 56px;
+	left: 11.5%;
 }
 
 .post__content {
@@ -1114,14 +1130,13 @@ button {
 .company div {
 	border: 2px solid #655f5c;
 	padding: 30px;
-	width: 18%;
+	max-width: 18%;
 }
 .clients img:last-child  {
 	width: 209px;
 	height: 70px;
 	
 }
-
 
 .info__contact {
 	margin-top: 120px;
@@ -1132,7 +1147,6 @@ button {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 }
-
 
 .info__contact h3 {
 	text-transform: uppercase;
@@ -1252,8 +1266,6 @@ input {
  color: #f39c12;
 }
 
-
-
 .map {
 	margin-top: 110px;
 	max-width: 100%;
@@ -1296,3 +1308,131 @@ footer span {
 .social a:hover {
 	color: #f39c12 ;
 }
+
+.mob__menu {
+	background: url(../img/mob__menu.png) center no-repeat;
+	-webkit-background-size: contain;
+	background-size: contain;
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 1025px) {
+	.mob__menu {
+		display: none;
+	}
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+	.padding20 {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.mob__menu{
+		position: absolute;
+		top: -90px;
+	    left: 0;
+	    width: 6%;
+	}
+
+
+	.fullMenu {
+		position: relative;
+		display: flex;
+   		justify-content: center;
+	}
+
+	.menu {
+		/*display: none;*/
+	}
+
+	.menu {
+		padding: 0;
+		position: absolute;
+	    top: -85px;
+	    left: 6%;
+	    width: 11%;
+	    flex-direction: column;
+	    background: #dde5ed;
+	    z-index: 4;
+	}
+
+	ul li + li:before{
+	content:""
+	}
+
+
+
+
+
+	.menu a{
+		padding: 15px 20px;
+		color: black;
+	}
+	.menu li {
+		border-bottom: 5px solid #f39c12;
+		border-radius: 4%;
+	}
+
+	.menu li:last-child {
+		border-bottom: 0;
+	}
+
+	.menu li:hover {
+		background: #000;
+	}
+
+	.skill {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.content {
+		flex-wrap: nowrap;
+		justify-content: center;
+		margin-left: 0;
+	}
+
+	.facts {
+		height: 4vh;
+	}
+
+	.text__block {
+		bottom: 14.5%;
+    	padding: 3.3%;
+	}
+
+	.clients img:last-child {
+    	max-width: 100%;
+    }
+
+    .company div {
+    	padding: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.company div {
+    border: 2px solid #655f5c;
+    padding: 24px;
+    max-width: 34%;
+    margin-top: 5px;
+}*/
