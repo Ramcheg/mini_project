@@ -1316,6 +1316,7 @@ footer span {
 	width: 70px;
 	height: 70px;
 	cursor: pointer;
+
 }
 
 @media screen and (min-width: 1025px) {
@@ -1346,11 +1347,6 @@ footer span {
 		display: flex;
    		justify-content: center;
 	}
-
-	.menu {
-		/*display: none;*/
-	}
-
 	.menu {
 		padding: 0;
 		position: absolute;
@@ -1365,10 +1361,6 @@ footer span {
 	ul li + li:before{
 	content:""
 	}
-
-
-
-
 
 	.menu a{
 		padding: 15px 20px;
@@ -1413,6 +1405,150 @@ footer span {
 
     .company div {
     	padding: 25px;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+
+	header {
+		padding-top: 0;
+		padding-bottom: 120px;
+	}
+
+	h4 {
+		 font-size: 24px;
+   		 text-align: center;
+   		 margin-top: 10px;
+	}
+	.padding20 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.fullMenu {
+		justify-content: flex-end;
+	}
+
+	.mob__menu {
+		width: 14%;
+		top: 0;
+	}
+
+	.menu {
+		width: 33%;
+		left: 16%;
+		top: 0;
+	}
+
+	.menu a {
+		font-size: 11px;
+	}
+	.baner h2:first-child {
+   		font-size: 25px;
+	}
+	.baner h1 {
+		font-size: 22px;
+	}
+
+	.baner h2 {
+   		font-size: 19px;
+	}
+
+	.baner__bro .slick-dots {
+		margin-top: 30px;
+	}
+
+	.textX {
+		padding-left: 7px;
+   		padding-right: 5px;
+   		padding-top: 10px;
+	}
+	.textX h3 {
+   		padding-right: 7px;
+   		font-size: 11px;
+   	}
+
+   	.textX p {
+   		font-size: 11px;
+   		padding-left: 6px;
+   		line-height: 12px;
+   		border-left-width: 2px;
+   	}
+
+   	.story {
+   		padding-top: 120px;
+   		flex-direction: column-reverse;
+   		padding-bottom: 40px;
+   	}
+
+   	.photo {
+   		max-width: 100%;
+   		flex: auto;
+   		max-width: 100%;
+   	}
+
+   	.textContent {
+   		max-width: 100%;
+   	}
+
+   	.textContent span {
+   		line-height: 19px;
+   		text-align: center;
+   	}
+   	.textContent p {
+   		text-align: center;
+   	}
+
+   	.img {
+   		display: none;
+   	}
+
+   	.skill {
+   		padding-top: 90px;
+   	}
+
+   	.content {
+   		flex-direction: column;
+   		max-width: 100%;
+   	}
+
+    .text p {
+    	text-align: center;
+    }
+
+    .graphic {
+    	margin-top: 15px;
+    }
+
+    .qute {
+    	padding-top: 0;
+    	font-size: 21px;
+    }
+
+    .quteT:before {
+    	font-size: 50px;
+    	padding-right: 0;
+    }
+     .quteT:after {
+    	font-size: 50px;
+    	padding-left: 0;
+    }
+
+    .qute p {
+    	padding-bottom: 170px;
+    }
+
+    .container {
+    	flex-direction: column;
+    }
+
+    .container  div {
+    	max-width: 100%;
+    }
+
+    .facts div {
+    	flex:0 0 0;
     }
 }
 
